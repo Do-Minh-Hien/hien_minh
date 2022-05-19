@@ -1,0 +1,204 @@
+#header {
+    position: fixed; 
+    left: 215px; top: 0px; 
+    width: 1200px; height: 200px;
+    background-color:#cce6ff;
+}
+
+/*Slide bar chính*/
+#slidebar {
+    position: fixed; 
+    left: 215px; top: 200px; 
+    width: 1200px; height: 40px;
+    background-color: #0088cc;
+}
+/*Nút Màn chính*/
+#btt_main_screen {
+    border: none; 
+    border-radius: 0px;
+    border-style: none;
+    border-width: 1px;
+    background-color: #0088cc;  
+    color: #000000;  
+    text-align: center; 
+    display: inline-block;
+    font-size: 20px; 
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute; 
+    transition: color 0.5s, backgound 2s;
+    width: 120px; height: 40px; 
+    left: 0px; top: 0px;
+}
+#btt_main_screen:hover {
+    background-color: #ffff33;
+    color: #000000;
+}
+/*Nút Màn hệ thống*/
+#btt_system_screen {
+    border: none; 
+    border-radius: 0px;
+    border-style: none;
+    border-width: 1px;
+    background-color: #0088cc;  
+    color: rgb(14, 14, 14);  
+    text-align: center; 
+    display: inline-block;
+    font-size: 20px; 
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute; 
+    transition: color 0.5s, backgound 2s;
+    width: 120px; height: 40px; 
+    left: 120px; top: 0px;
+}
+#btt_system_screen:hover {
+    background-color: chartreuse;
+    color: #ffffff;
+}
+/*Nút Màn hiển thị dữ liệu hệ thống*/
+#btt_control_screen {
+    border: none; 
+    border-radius: 0px;
+    border-style: none;
+    border-width: 1px;
+    background-color: #0088cc;  
+    color: rgb(14, 14, 14);  
+    text-align: center; 
+    display: inline-block;
+    font-size: 20px; 
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute; 
+    transition: color 0.5s, backgound 2s;
+    width: 120px; height: 40px; 
+    left: 240px; top: 0px;
+}
+#btt_control_screen:hover {
+    background-color: chartreuse;
+    color: #ffffff;
+}
+/*Nút Màn hiển thị đồ thị hệ thống*/
+#btt_trend_screen {
+    border: none; 
+    border-radius: 0px;
+    border-style: none;
+    border-width: 1px;
+    background-color: #0088cc;  
+    color: rgb(14, 14, 14);  
+    text-align: center; 
+    display: inline-block;
+    font-size: 20px; 
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute; 
+    transition: color 0.5s, backgound 2s;
+    width: 120px; height: 40px; 
+    left: 360px; top: 0px;
+}
+#btt_trend_screen:hover {
+    background-color: chartreuse;
+    color: #ffffff;
+}
+/*Nút Màn hiển thị dữ liệu hệ thống*/
+#btt_data_screen {
+    border: none; 
+    border-radius: 0px;
+    border-style: none;
+    border-width: 1px;
+    background-color: #0088cc;  
+    color: rgb(14, 14, 14);  
+    text-align: center; 
+    display: inline-block;
+    font-size: 20px; 
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute; 
+    transition: color 0.5s, backgound 2s;
+    width: 120px; height: 40px; 
+    left: 480px; top: 0px;
+}
+#btt_data_screen:hover {
+    background-color: chartreuse;
+    color: #ffffff;
+}
+/*Nút Màn cảnh báo lỗi hệ thống*/
+#btt_alarm_screen {
+    border: none; 
+    border-radius: 0px;
+    border-style: none;
+    border-width: 1px;
+    background-color: #0088cc;  
+    color: rgb(14, 14, 14);  
+    text-align: center; 
+    display: inline-block;
+    font-size: 20px; 
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute; 
+    transition: color 0.5s, backgound 2s;
+    width: 120px; height: 40px; 
+    left: 600px; top: 0px;
+}
+#btt_alarm_screen:hover {
+    background-color: chartreuse;
+    color: #ffffff;
+}
+/*Nút ĐĂNG NHẬP*/
+#bttLogin {
+    border: outset; 
+    background-color: rgb(120, 233, 15); 
+    color: rgb(0, 0, 0);   
+    text-align: center; 
+    display: inline-block;
+    font-size: 13px; 
+    font-weight: normal;
+    cursor: pointer;
+    position: absolute; 
+    width: 150px; height: 40px; 
+    left: 22px; top: 550px;
+}
+/*Nút ĐĂNG XUẤT*/
+#bttLogout {
+    border: outset; 
+    background-color: rgb(255, 0, 0);  
+    color: rgb(255, 255, 255);   
+    text-align: center; 
+    display: inline-block;
+    font-size: 13px; 
+    font-weight: normal;
+    cursor: pointer;
+    position: absolute; 
+    width: 150px; height: 40px; 
+    left: 22px; top: 600px;
+}
+
+/*Nút ĐĂNG NHẬP*/
+#bttLogin {
+    border: outset; 
+    background-color: rgb(120, 233, 15); 
+    color: rgb(0, 0, 0);   
+    text-align: center; 
+    display: inline-block;
+    font-size: 13px; 
+    font-weight: normal;
+    cursor: pointer;
+    position: absolute; 
+    width: 120px; height: 40px; 
+    left: 1000px; top: 70px;
+}
+/*Nút ĐĂNG XUẤT*/
+#bttLogout {
+    border: outset; 
+    background-color: rgb(255, 0, 0);  
+    color: rgb(255, 255, 255);   
+    text-align: center; 
+    display: inline-block;
+    font-size: 13px; 
+    font-weight: normal;
+    cursor: pointer;
+    position: absolute; 
+    width: 120px; height: 40px; 
+    left: 1000px; top: 120px;
+}
+

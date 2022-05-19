@@ -1,0 +1,78 @@
+
+/*Màn hình HỆ THỐNG*/
+#system_screen {
+    position: absolute; 
+    left: 215px; top: 11px; 
+    width: 800px; height: 686px;
+    /* background-color: rgb(15, 228, 210);  */
+}
+
+/* #header {
+    position: absolute; 
+    left: 215px; top: 0px; 
+    width: 1200px; height: 200px;
+    background-color:#cce6ff;
+} */
+
+/*motor*/
+#system_screen_motor {
+    position: absolute; 
+    left: 752px; top: 547px; 
+    width: 170px; height: 110px;
+    
+}
+
+/*flow*/
+#system_screen_flow {
+    position: absolute; 
+    left: 747px; top: 323px; 
+    width: 60px; height: 98px;
+     
+}
+
+/*van solenoid*/
+#system_screen_valve {
+    position: absolute; 
+    left: 93px; top: 344px; 
+    width: 80px; height: 60px;
+     
+}
+
+/*setpoint*/
+#setpoint_1 {
+    position: absolute; 
+    left: 1050px; top: 210px;
+    width: 125px; height: 40px;
+     
+}
+
+/*PV*/
+#pv_1 {
+    position: absolute; 
+    left: 1050px; top: 410px;
+    width: 125px; height: 40px;
+     
+}
+
+
+
+
+
+
+
+
+/*Nút nhấn SP_MODE*/
+/* #btt_sp_mode {
+    border: outset; 
+    background-color: rgb(255, 255, 255); 
+    color: rgb(0, 0, 0);   
+    text-align: center; 
+    display: inline-block;
+    font-size: 18px; 
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute; 
+    width: 105px; height: 40px; 
+    left: 1170px; top: 90px;
+} */
+

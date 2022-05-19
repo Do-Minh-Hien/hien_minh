@@ -1,0 +1,39 @@
+<!--//////////////CODE CHO MÀN HÌNH HT DỮ LIỆU////////////// -->
+<div id = "data_screen">
+
+     <!--Table display-->
+    <div id = "div_Table_01">
+        <table id="table_01" >
+            <thead>
+            <tr>
+                <th>Thời gian</th>
+                <th>SP</th>
+                <th>Level</th>
+                <th>Flow</th>
+                <th>Pressure</th>
+            </tr>
+            </thead>
+        </table>
+    </div>
+
+
+    <!-- //////////////truy vấn dữ liệu cảm biến////////////// -->
+     <!--Date time piker-->
+     <label id="lb_Search_Start">Từ:</label>
+     <input id="dtpk_Search_Start" type="datetime-local">
+     <label id="lb_Search_End">Đến:</label>
+     <input id="dtpk_Search_End" type="datetime-local">
+     <!--Nút tìm kiếm-->
+     <button id="btt_Search" class="btn" onclick="fn_SQL_By_Time();
+     "></i> TÌM KIẾM</button>
+
+    <!--Nút Xuất Excel-->
+    <button id="btt_Excel" class="btn" onclick="fn_excel();
+    "></i> XUẤT DỮ LIỆU</button>
+
+     <script>fn_SQL_By_Time()</script>
+</div>     
+
+
+
+    

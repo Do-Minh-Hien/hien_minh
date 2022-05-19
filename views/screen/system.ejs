@@ -1,0 +1,34 @@
+    
+            <!-- //////////////tạo SYSMBOL////////////// -->
+            <!-- <img src="images/system_scr.png"> -->
+            <!-- Tạo sysmbol motor -->
+            <!-- <img id = "system_screen_motor" ><script> fn_SymbolStatus("system_screen_motor", "motor", "Bom_Light") </script> -->
+            <!-- Tạo sysmbol flow -->
+            <!-- <img id = "system_screen_flow" ><script> fn_SymbolStatus("system_screen_flow", "flow", "Bom_Light") </script> -->
+            <!-- Tạo sysmbol solenoid valve -->
+            <!-- <img id = "system_screen_valve" ><script> fn_SymbolStatus("system_screen_valve", "van", "Van_Light") </script>  -->
+
+            <!-- CÀI ĐẶT SETPOINT--> 
+            <!-- <input id="setpoint_1" disabled="disabled" type="text" />
+            <script>fn_scrDisplay_IOField_IO("SP_Real", "setpoint_1", 2);</script> -->
+
+            <!-- MỰC NƯƠC HIỆN TẠI--> 
+            <!-- <input id="pv_1" disabled="disabled" type="text" />
+            <script>fn_scrDisplay_IOField_IO("Level", "pv_1", 2);</script> -->
+
+            <!-- Nút nhấn SP_MODE -->
+            <!-- <button id="btt_sp_mode" onmousedown ="socket.emit('cmd_SP_MODE', true);"  onmouseup = "socket.emit('cmd_SP_MODE', false);">SP_MODE</button>
+            <script>
+                // Hiển thị trạng thái nút nhấn (ON = đỏ, Off = Nâu)
+                socket.on("SP_Mode",function(data){
+                if(data == false){
+                    document.getElementById('btt_sp_mode').style.backgroundColor = 'gray';
+                } else{
+                    document.getElementById('btt_sp_mode').style.backgroundColor = 'rgb(15, 228, 61)'; 
+                }
+                });
+            </script> -->
+
+        <!-- //////////////CODE CHO MÀN HÌNH HỆ THỐNG////////////// -->
+        
+
